@@ -41,22 +41,31 @@ print(colorama.Fore.CYAN + """
 print "\r"
 while True:
 		ip = raw_input("Enter Your Target IP : ")
-		url = "https://api.ipdata.co/"
-		response = urllib2.urlopen(url + ip)
+		url = "https://ipapi.co/"
+                end = "/json/"
+		response = urllib2.urlopen(url + ip + end)
 		data = response.read()
 		values = json.loads(data)
 
 		print("------------------------------------")
 		print "\r"
-		print(" IP           :  " + values['ip'])
-		print(" City         :  " + values['city'])
-		print(" Region       :  " + values['region'])
-		print(" Country      :  " + values['country_name'])
-		print(" Continent    :  " + values['continent_name'])
-		print(" Time Zone    :  " + values['time_zone'])
-		print(" Currency     :  " + values['currency'])
-		print(" Calling Code :  " + "+" + values['calling_code'])
-		print(" Organisation :  " + values['organisation'])
-		print(" ASN          :  " + values['asn'])
+		print(" IP               :  " + values['ip'])
+		print(" City             :  " + values['city'])
+		print(" Region           :  " + values['region'])
+                print(" Region Code      :  " + values['region_code'])
+		print(" Country          :  " + values['country_name'])
+		print(" Languages        :  " + values['languages'])
+		print(" Country Area     :  " + values['country_area'])
+                print(" Country Code     :  " + values['country'])
+		print(" Country Capital  :  " + values['country_capital'])
+		print(" Postal           :  " + values['postal'])
+		print(" Latitude         :  " + values['latitude'])
+		print(" Longitude        :  " + values['longitude'])
+		print(" Time Zone        :  " + values['timezone'])
+		print(" Currency Name    :  " + values['currency_name'])
+		print(" Currency         :  " + values['currency'])
+		print(" Calling Code     :  " + "+" + values['country_calling_code'])
+		print(" Organisation     :  " + values['org'])
+		print(" ASN              :  " + values['asn'])
 		print "\r"
 		break
