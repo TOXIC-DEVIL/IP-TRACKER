@@ -42,8 +42,7 @@ print "\r"
 while True:
 		ip = raw_input("Enter Your Target IP : ")
 		url = "https://ipapi.co/"
-                end = "/json/"
-		response = urllib2.urlopen(url + ip + end)
+		response = urllib2.urlopen(url + ip + "/json/")
 		data = response.read()
 		values = json.loads(data)
 
