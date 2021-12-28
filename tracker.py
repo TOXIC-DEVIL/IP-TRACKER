@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+# WhatsApp  : https://tinyurl.com/WHATSAPP-TOXIC-DEVIL
+# Instagram : https://tinyurl.com/INSTAGRAM-TOXIC-DEVIL
+# Github    : https://tinyurl.com/GITHUB-TOXIC-DEVIL
+# YouTube   : https://tinyurl.com/YOUTUBE-TOXIC-DEVIL
+
 import os
 import urllib2
 import json
