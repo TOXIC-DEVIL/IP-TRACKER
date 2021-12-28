@@ -2,6 +2,7 @@
 
 # WhatsApp  : https://tinyurl.com/WHATSAPP-TOXIC-DEVIL
 # Instagram : https://tinyurl.com/INSTAGRAM-TOXIC-DEVIL
+# TELEGRAM  : Coming Soon...
 # Github    : https://tinyurl.com/GITHUB-TOXIC-DEVIL
 # YouTube   : https://tinyurl.com/YOUTUBE-TOXIC-DEVIL
 
