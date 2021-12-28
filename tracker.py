@@ -40,7 +40,7 @@ print(colorama.Fore.CYAN + """
 print "\r"
 while True:
 		ip = raw_input("Enter Your Target IP : ")
-		url = "https://api.ipdata.co/"
+		url = """https://api.ipdata.co/"""
 		response = urllib2.urlopen(url + ip)
 		data = response.read()
 		values = json.loads(data)
