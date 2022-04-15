@@ -36,7 +36,7 @@ print(colorama.Fore.CYAN + """
 ░█▀▀▄ ░█▀▀▀ ░█──░█ ▀█▀ ░█─── 
 ░█─░█ ░█▀▀▀ ─░█░█─ ░█─ ░█─── 
 ░█▄▄▀ ░█▄▄▄ ──▀▄▀─ ▄█▄ ░█▄▄█
-"""
+""")
 print "\r"
 while True:
 		ip = raw_input("Enter Your Target IP : ")
