@@ -37,7 +37,7 @@ print(colorama.Fore.CYAN + """
 ░█─░█ ░█▀▀▀ ─░█░█─ ░█─ ░█─── 
 ░█▄▄▀ ░█▄▄▄ ──▀▄▀─ ▄█▄ ░█▄▄█
 """)
-print "\r"
+print("\r")
 while True:
 		ip = raw_input("Enter Your Target IP : ")
 		url = "https://ipapi.co/{}/json/".format(ip)
@@ -46,7 +46,7 @@ while True:
 		values = json.loads(data)
 
 		print("------------------------------------")
-		print "\r"
+		print("\r")
 		print(" IP               :  " + values['ip'])
 		print(" City             :  " + values['city'])
 		print(" Region           :  " + values['region'])
@@ -65,5 +65,5 @@ while True:
 		print(" Calling Code     :  " + "+" + values['country_calling_code'])
 		print(" Organisation     :  " + values['org'])
 		print(" ASN              :  " + values['asn'])
-		print "\r"
+		print("\r")
 		break
